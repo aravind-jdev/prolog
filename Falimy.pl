@@ -17,7 +17,6 @@ mother(shruthi, dante).
 mother(shruthi, leo).
 mother(shruthi, steve).
 
-
 father(deva, thamizh).
 father(deva, saravanan).
 father(srinivas, shruthi).
