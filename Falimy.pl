@@ -1,4 +1,4 @@
-male(surya).
+male(deva).
 male(srinivas).
 male(thamizh).
 male(saravanan).
@@ -18,8 +18,8 @@ mother(shruthi, leo).
 mother(shruthi, steve).
 
 
-father(surya, thamizh).
-father(surya, saravanan).
+father(deva, thamizh).
+father(deva, saravanan).
 father(srinivas, shruthi).
 father(thamizh, dante).
 father(thamizh, leo).
