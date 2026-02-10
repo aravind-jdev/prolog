@@ -41,3 +41,10 @@ n_queens(N, Solution) :-
     range(1, N, Rows),
     perm(Rows, Solution),
     safe(Solution).
+
+% -----------------------------
+% Count number of solutions
+% -----------------------------
+n_queens_count(N, Count) :-
+    findall(Solution, n_queens(N, Solution), Solutions),
+    length(Solutions, Count).
